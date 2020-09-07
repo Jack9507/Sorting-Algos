@@ -4,7 +4,12 @@ using namespace std;
 #define endl '\n'
 const int mod=1e9+7;
 
-
+/* Time Complexity : O(nlogn)
+  Space Complexity  :O(n)
+  
+ Note : Merge sort is not Inplace sorting algorithm.
+        Merge sort is a stable sort.
+ */
 void Merge(int left[],int ln, int right[],int rn, int arr[],int n)
 {
     int i=0, j=0, k=0;     // 3 pointers for 3 arrays respectively
